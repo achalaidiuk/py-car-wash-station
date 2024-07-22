@@ -21,7 +21,7 @@ class CarWashStation:
             average_rating: float,
             distance_from_city_center: float
 
-    ,
+
     ) -> None:
 
         self.distance_from_city_center = distance_from_city_center
