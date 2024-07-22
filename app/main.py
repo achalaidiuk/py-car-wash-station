@@ -16,12 +16,10 @@ class Car:
 class CarWashStation:
     def __init__(
             self,
-            count_of_ratings: int,
+            distance_from_city_center: float,
             clean_power: int,
             average_rating: float,
-            distance_from_city_center: float
-
-
+            count_of_ratings: int
     ) -> None:
 
         self.distance_from_city_center = distance_from_city_center
